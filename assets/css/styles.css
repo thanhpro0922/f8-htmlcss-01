@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
     --primary-color: #0f1b4c;
@@ -173,7 +178,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 174px;
+    margin-bottom: 81px;
 }
 
 .clients .img a {
@@ -189,6 +194,12 @@ a {
 }
 
 /* ===============Guides================ */
+
+.guides {
+    padding: 93px 0 79px;
+}
+
+
 .guides .sub-title {
     position: relative;
     text-align: center;
@@ -221,6 +232,7 @@ a {
     line-height: 1.88;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .list-guide {
