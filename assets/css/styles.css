@@ -45,7 +45,16 @@ a {
 }
 
 /* =========================== Header ============================ */
-.header {
+
+.fixed-header {
+    background: #e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+
+.hero-wrap {
     background: #e6f0ff;
     height: 100vh;
     position: relative;
@@ -54,10 +63,10 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    padding: 12px 0;
 }
 
-.navbar ul {
+.navbar .list-header {
     display: flex;
     margin-left: 50px;
 }
@@ -66,14 +75,14 @@ a {
     margin-left: auto;
 }
 
-.navbar ul a {
+.navbar .list-header a {
     font-size: 1.4rem;
     font-weight: 500;
     color: #4f5361;
     padding: 8px 14px;
 }
 
-.navbar ul a:hover {
+.navbar .list-header a:hover {
     text-decoration: underline;
 }
 .navbar .sign-in {
@@ -93,7 +102,7 @@ a {
 }
 
 .hero {
-    margin-top: 14rem;
+    padding-top: 140px;
 }
 
 .hero .info {
